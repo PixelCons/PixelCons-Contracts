@@ -1,4 +1,2 @@
 # PixelCons-Contracts
-Flattened Contract Code
-
-These are the flattened versions of the two main PixelCons contracts that were used during deployment
+These are the flattened versions of the two main PixelCons contracts that were used during deployment. The full contract code can still be found in the main **PixelCons-Core** project
