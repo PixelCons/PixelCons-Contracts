@@ -8,6 +8,7 @@ required to interact with this contract beyond base gas fees.
 
 #### PixelCons [The core ERC721 token of this contract]
 - Each PixelCon is unique with an ID that encodes all its pixel data
+![Encoding](encoding.png)
 - PixelCons can be identified by both TokenIDs and TokenIndexes which requires fewer bits to store (64bits)
 - Small metadata is stored alongside a PixelCon to keep track of the creator, created date, an 8byte name, and collection index (if applicable)
 - A PixelCon name can be changed by the creator as long as they are currently the owner
