@@ -1,5 +1,5 @@
 # PixelCons-Contracts
-These are the flattened versions of the two main PixelCons contracts that were used during deployment. The full contract code can still be found in the main **PixelCons-Core** project
+These are the flattened versions of the two main PixelCons contracts that were used during deployment. The full contract code can still be found in the main **PixelCons-Core** project [here](https://github.com/PixelCons/PixelCons-Core)
 
 ## PixelCons Contract
 The purpose of this contract is to provide a shared ecosystem of minimal pixel art tokens for everyone to use. All users are treated 
