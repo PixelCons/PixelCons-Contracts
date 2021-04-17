@@ -3,7 +3,6 @@ These are the flattened versions of the PixelCons contracts that were used durin
 
 #### Ethereum Mainnet (Solidity v0.4.24):
 - PixelCons: [0x5536B6aAdd29eAf0DB112Bb28046A5FaD3761bD4](https://etherscan.io/address/0x5536b6aadd29eaf0db112bb28046a5fad3761bd4)
-- **[Destroyed]** PixelConsMarket: [0x2DF5c5eb37fbA9b386CF0B39E6b209687CA67559](https://etherscan.io/address/0x2DF5c5eb37fbA9b386CF0B39E6b209687CA67559)
 
 ## PixelCons Contract
 The purpose of this contract is to provide a shared ecosystem of minimal pixel art tokens for everyone to use. All users are treated 
@@ -29,13 +28,3 @@ required to interact with this contract beyond base gas fees.
 - A PixelCon can only belong to one collection
 - Collections can be cleared, which will free up the PixelCons inside it and blank out its name
 - Total number of collections is limited to 18,446,744,073,709,551,616 (2^64)
-
-## **[Destroyed]** Market Contract
-This contract has been self destructed in favor of more fully fleshed out third party ERC-721 market solutions. Before its destruction, this was the main market contract for buying and selling PixelCons. The market holds ownership of PixelCons while they are listed for sale.
-
-#### Listings [The main object for holding time based auctions]
-- Listings are created by transferring PixelCons to this contract through the PixelCons contract
-- Listings can be removed from the market at any time
-- Admin user has the ability to change market parameters such as min and max acceptable values
-- Admin user has the ability to lock the market from any new listings and/or purchases
-- The admin cannot prevent users from removing their listings at any time
